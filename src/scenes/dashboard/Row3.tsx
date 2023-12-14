@@ -163,18 +163,12 @@ const Row3 = () => {
               <PieChart 
                 width={110} 
                 height={100} 
-                margin={{
-                  top: 0,
-                  right: -10,
-                  left: 10,
-                  bottom: 0,
-                }}
               >
                 <Pie
                   stroke="none"
                   data={data}
-                  innerRadius={18}
-                  outerRadius={35}
+                  innerRadius={15}
+                  outerRadius={28}
                   paddingAngle={2}
                   dataKey="value"
                 >
@@ -206,11 +200,11 @@ const Row3 = () => {
             width="40%"
           ></Box>
         </Box>
-        <Typography m="0 1rem" variant="h6">
+        <Typography m="0.5rem 1rem" variant="h6">
           Orci aliquam enim vel diam. Venenatis euismod id donec mus lorem etiam
           ullamcorper odio sed. Ipsum non sed gravida etiam urna egestas
-          molestie volutpat et. Malesuada quis pretium aliquet lacinia ornare
-          sed. In volutpat nullam at est id cum pulvinar nunc.
+          molestie volutpat et. Ipsum non sed gravida etiam urna egestas
+          molestie volutpat et
         </Typography>
       </DashboardBox>
     </>
